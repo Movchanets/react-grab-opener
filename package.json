@@ -3,20 +3,20 @@
   "displayName": "React Grab Opener",
   "description": "Open React component files from browser DevTools using react-grab npm package",
   "version": "0.1.0",
-  "publisher": "your-publisher-name",
+  "publisher": "VyacheslavMovchanets",
 
   "author": {
-    "name": "Your Name"
+    "name": "Viacheslav Movchanets"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/react-grab-opener"
+    "url": "https://github.com/Movchanets/react-grab-opener"
   },
   "bugs": {
-    "url": "https://github.com/your-username/react-grab-opener/issues"
+    "url": "https://github.com/Movchanets/react-grab-opener/issues"
   },
-  "homepage": "https://github.com/your-username/react-grab-opener#readme",
+  "homepage": "https://github.com/Movchanets/react-grab-opener#readme",
   "keywords": [
     "react",
     "devtools",

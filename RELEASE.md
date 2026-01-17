@@ -5,12 +5,14 @@
 All files are prepared for publishing to VS Code Marketplace:
 
 ### Documentation
+
 - ✅ **README.md** - Complete user guide with comprehensive react-grab setup instructions
 - ✅ **CHANGELOG.md** - Detailed version history
 - ✅ **LICENSE** - MIT License
 - ✅ **PUBLISHING.md** - Step-by-step publishing instructions
 
 ### Package
+
 - ✅ **package.json** - Version 0.1.0 with all metadata
 - ✅ **icon.svg** - Extension icon (React-inspired design)
 - ✅ **Compiled code** - TypeScript compiled to JavaScript
@@ -21,23 +23,24 @@ You need to update these fields in `package.json`:
 
 ```json
 {
-  "publisher": "your-publisher-name",  // ← Your VS Code Marketplace publisher name
+  "publisher": "your-publisher-name", // ← Your VS Code Marketplace publisher name
   "author": {
-    "name": "Your Name"                // ← Your name
+    "name": "Your Name" // ← Your name
   },
   "repository": {
-    "url": "https://github.com/your-username/react-grab-opener"  // ← Your repo
+    "url": "https://github.com/your-username/react-grab-opener" // ← Your repo
   },
   "bugs": {
-    "url": "https://github.com/your-username/react-grab-opener/issues"  // ← Your repo
+    "url": "https://github.com/your-username/react-grab-opener/issues" // ← Your repo
   },
-  "homepage": "https://github.com/your-username/react-grab-opener#readme"  // ← Your repo
+  "homepage": "https://github.com/your-username/react-grab-opener#readme" // ← Your repo
 }
 ```
 
 ## Quick Start to Publish
 
 1. **Install vsce** (if not installed):
+
    ```bash
    npm install -g @vscode/vsce
    ```
@@ -45,10 +48,12 @@ You need to update these fields in `package.json`:
 2. **Update package.json** (see above)
 
 3. **Create package**:
+
    ```bash
    npm run compile
    vsce package
    ```
+
    Creates: `react-grab-opener-0.1.0.vsix`
 
 4. **Test locally**:
